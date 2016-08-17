@@ -1,11 +1,11 @@
-Source: c1-netrunner-core
+Source: c1-netrunner-nextcloud
 Section: admin
 Priority: optional
 Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
-Package: c1-netrunner-core
+Package: c1-netrunner-nextcloud
 Architecture: armhf
 Recommends: alsa-utils,
             apt-xapian-index,
@@ -16,7 +16,7 @@ Recommends: alsa-utils,
             breeze,
             c1-calamares-core,
             c1-linux-image,
-            c1-netrunner-core-settings,
+            c1-netrunner-nextcloud-settings,
             carbon-gtk2,
             carbon-qt,
             carbon-qt4,
